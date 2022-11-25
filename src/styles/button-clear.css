@@ -1,0 +1,19 @@
+.buttonClear{ 
+    display: flex; 
+    flex: 1 1;
+    justify-content: center; 
+    align-items: center;  
+    height: 70px; 
+    background-color: #227093;  
+    margin: 15px 4px 0px 4px; 
+    border: 3px solid;  
+    border-radius: 10px; 
+    font-size: 1.5rem;
+    
+}
+.buttonClear:hover{ 
+    background-color: skyblue; 
+}
+.buttonClear:active{ 
+    transform: scale(0.9);
+}

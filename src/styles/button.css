@@ -1,0 +1,30 @@
+.button{ 
+    display: flex; 
+    flex: 1 1; 
+    justify-content: center; 
+    align-items: center;
+    border: 2px solid #000000; 
+    background-color: #ff3f34b3;
+    border-radius: 5px;  
+    margin: 4px;
+    height: 50px; 
+    font-size: 1.5rem; 
+    padding: 3px;
+}  
+.button:hover{ 
+    background-color: #ff3f34; 
+    cursor: pointer;
+} 
+.button:active{
+    transform: scale(0.9);
+}
+.button-operador{ 
+    background-color: #05c46b;
+}
+.button-operador:hover{ 
+    background-color: #218c74; 
+} 
+
+
+
+

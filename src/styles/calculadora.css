@@ -1,0 +1,13 @@
+.App{ 
+  background-color: rebeccapurple;
+}
+.container-calculadora{  
+  width: 40%;   
+  border-radius: 20px;
+  background-color: rgb(210, 218, 226, 0.5); 
+  border: 4px solid ; 
+  padding: 16px;
+} 
+.row{ 
+  display: flex;  
+}
