@@ -36,12 +36,10 @@ export default function Calculadora() {
    // si la validacion del estado que almacena la operacion no es valida nos manda el error al catch lo que nos permite modificar el comportamiento del error y en este caso renderizar el modal.
    } 
    const closeModal = (e) =>{  
-      if(e.target.matches('.button-modal')){ 
          setModal(false);   
          clear(); 
-      }
    } 
-   // para cerrar el modal lo que hacemos es aplicarle un evento al modal, para luego delegarle ese evento al boton, lo que nos permite manipular el estado del modal, con el boton que este anida. 
+   // para cerrar el modal lo que hacemos es que creamos una funcion que establesca el estado del modal en false, esto quitara la clase de activacion del modal a traves del operador ternario, psaamos esta funcion como prop al modal, esto nos permitira ejecutar la funcion en cualquier elemento del modal, que en este caso lo ejecutara el boton salirXD 
   return ( 
    <>  
    <Modal title='¡Lo sentimos ha ocurrido un error!' text='Por favor ingresa una operacion aritmetica valida' classActive ={modal} closeModal={closeModal}/>
