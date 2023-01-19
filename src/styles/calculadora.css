@@ -11,3 +11,15 @@
 .row{ 
   display: flex;  
 }
+
+@media screen and (max-width: 850px) {
+  .container-calculadora{ 
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .container-calculadora{ 
+    width: 80%;
+  }
+}

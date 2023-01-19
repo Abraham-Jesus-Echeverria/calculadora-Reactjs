@@ -65,3 +65,15 @@
     cursor: pointer; 
     transform: scale(0.9);
 }
+
+@media screen and (max-width: 750px) {
+    .card-modal{ 
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card-modal{ 
+        width: 90%;
+    }
+}

@@ -3,12 +3,13 @@
 body{ 
   font-family: 'Lato', sans-serif; 
   background: linear-gradient(50deg, #34e7e4,#fff, #0fbcf9); 
-   /* #d2dae2;  */
   display: flex; 
   justify-content: center; 
-  align-items: center;
+  align-items: center; 
 
 } 
+
+
 
 *{ 
   margin: 0; 
@@ -26,4 +27,10 @@ body{
   text-align: center;  
   font-size: 3rem; 
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 300px ) {
+  body{  
+    background:  #0fbcf9;
+  }
 }
